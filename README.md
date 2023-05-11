@@ -1,7 +1,8 @@
 # CS571-2023-05-Extra-Project
+# Extra Project
 ## Build an e-comerce system to satisfy the following conditions
 * There are two types of users in the system, admin and customer.
-* Customers can do the following actions:
+1. Customers can do the following actions:
 - Sign Up
 - Sign In
 - View list of products
@@ -12,21 +13,21 @@
 - Return an order
 - Add review for products
 
-* Admins can do the following actions:
+2. Admins can do the following actions:
 - Sign In
 - CRUD products
 - View/Update orders
 - View/disable a user
 - Create an admin user
 
-* At the beginning, the system has an admin user
-* All passwords should be hashed
-* Use JWT for Authorization and Authentication
-* Only use the fundamental components with your own styles from React Native like: View, Text, Touchable*, button, Flatlist/ScrollView, TextInput, KeyboardAvoidingView, Image, ImageBackground
-* If you want to have the navigation, please use React Native Navigation: https://reactnavigation.org/
-* If you want to host a web component, please use webview: https://github.com/react-native-webview/react-native-webview
-* Do not use any styling UI kits like React Native Element...
-* You can upload the images to AWS storage - S3
+3. At the beginning, the system has an admin user
+4. All passwords should be hashed
+5. Use JWT for Authorization and Authentication
+6. Only use the fundamental components with your own styles from React Native like: View, Text, Touchable*, button, Flatlist/ScrollView, TextInput, KeyboardAvoidingView, Image, ImageBackground
+7. If you want to have the navigation, please use React Native Navigation: https://reactnavigation.org/
+8. If you want to host a web component, please use webview: https://github.com/react-native-webview/react-native-webview
+9. Do not use any styling UI kits like React Native Element...
+10. You can upload the images to AWS storage - S3
 ## Technologies
 * Backend: NodeJS Express, MongoDB
 * Frontend: React Native
